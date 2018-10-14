@@ -1,0 +1,41 @@
+.Sredina{
+
+	background-image: url("malcolm-lightbody-698733-unsplash.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	padding-bottom: 30em;
+
+	background-size: cover;
+	margin-top: 1em;
+
+   
+   
+       
+    box-shadow: 10px 10px 20px #888888;
+
+
+ 
+
+}
+.navbar{
+
+	background-color: #deaf72;
+}
+.textObjasnjenje{
+
+	padding: 2.5em;
+}
+
+h1{
+	font-size:3em;
+	text-shadow: 2px 2px 4px #000000;
+
+	padding-left: 1.5em;
+	padding-top: 2vw;
+	color: white;
+	font-family: 'Cookie', cursive;
+}
+a{
+	font-family: 'Black And White Picture', sans-serif;
+}
+
