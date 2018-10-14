@@ -3,15 +3,13 @@
 	background-image: url("malcolm-lightbody-698733-unsplash.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
-	padding-bottom: 30em;
+	padding-bottom: 20em;
 
 	background-size: cover;
 	margin-top: 1em;
 
    
-   
-       
-    box-shadow: 10px 10px 20px #888888;
+
 
 
  
@@ -19,11 +17,14 @@
 }
 .navbar{
 
-	background-color: #deaf72;
+	background-color: white;
+
 }
 .textObjasnjenje{
 
 	padding: 2.5em;
+	text-align: center;
+	background-color: white;
 }
 
 h1{
@@ -39,3 +40,11 @@ a{
 	font-family: 'Black And White Picture', sans-serif;
 }
 
+body{
+	background-color: black;
+	background-image: url("david-jorre-712468-unsplash.jpg"); 
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+
+}
