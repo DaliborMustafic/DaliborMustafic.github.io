@@ -1,0 +1,122 @@
+ul{
+
+	list-style: none;
+	font-family: 'Courgette', cursive;
+	 
+
+
+
+
+
+
+}
+.navbar-light .navbar-brand{
+	color:	white;
+	-webkit-text-stroke: 0.5px yellow;
+
+}
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover{
+	color:white;
+}
+a:hover{
+	 text-shadow: 2px 2px 4px white
+
+
+	}
+	i{
+		color: white;
+	}
+
+.ich{
+
+	float: right;
+	background: #EBEBEB;
+
+	border-radius: 50%;
+	
+	width: 10%;
+    -webkit-filter: grayscale(100%);
+       -moz-filter: grayscale(100%);
+         -o-filter: grayscale(100%);
+        -ms-filter: grayscale(100%);
+            filter: grayscale(100%); 
+            position: absolute;
+            
+            right: -7%;
+}
+.ich:hover{
+	background: white;
+
+	width: 15%;
+
+	transition: 2s;
+	filter: none;
+
+}
+
+
+body{
+	
+ 	background-image: url("rawpixel-592447-unsplash.jpg");
+    background-size: cover;
+    background-position: center; 
+
+}
+.cup{
+	background-image: url("cup.png") ;
+	background-size: 255px ;
+	background-repeat: no-repeat;
+	
+	padding:130px;
+	padding-bottom: 110px;
+	position: absolute;
+	top: 423px;
+	right: 424px;
+	z-index: -1;
+	
+
+
+}
+.coffe{
+	background-image: url("justcoffe.png");
+	background-size: 174px ;
+	background-repeat: no-repeat;
+
+	border-radius: 50%;
+	padding:89px;
+	padding-bottom: 84px;
+	padding-right: 85px;
+	position: absolute;
+	top: 465px;
+	right: 455px;
+	
+	
+
+}
+.text{
+
+	max-width: 600px;
+	font-family: 'Indie Flower', cursive;
+	font-size: 120%;
+	background-image: url("stil-734850-unsplash.jpg");
+	height: 600px;
+	border-radius: 2px;
+	box-shadow: 5px 5px 10px black;
+	position: absolute;
+	z-index: 999;
+}
+
+.innertext{
+	max-width: 500px;
+	
+	margin: 0 auto;
+	padding-top: 110px;
+	line-height: 1.7em; 
+	padding-left: 15%;
+	padding-right: 10%;
+
+}
+.textnormal{
+	padding-top: 15px;
+}
+

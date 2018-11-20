@@ -1,0 +1,96 @@
+body{
+
+	background: #232323;
+	margin:0;
+	font-family: 'Shadows Into Light', cursive;
+}
+
+.splice{
+
+	background-color: white;
+	display: flex;
+  	justify-content: center;
+
+
+}
+
+button:hover{
+	
+	background-color:  steelblue;
+	transition: all 0.9s ease;
+	
+	color:white;
+
+}
+
+
+.buttonsHover{
+
+	background-color: steelblue;
+	color:white;
+
+}
+
+
+.square:hover{
+	
+
+	border-radius: 26%;
+	transition: all 2s ease;
+}
+
+
+h1{
+	text-transform: uppercase;
+	text-align: center;
+	background-color: steelblue;
+	margin:0;
+	padding: 2%;
+}
+.square{
+
+	width: 30%;
+	background: purple;
+	padding-bottom: 30%;
+	float:left;
+	margin:1.66%;
+	border-radius: 15%;
+	transition: background 1.0s;
+	--webkit-transition:background 0.6s;
+	--moz-transition:background 0.6s;
+
+
+}
+.container{
+	margin:20px  auto;
+	max-width: 600px;
+
+}
+
+
+button{
+	font-family: 'Shadows Into Light', cursive;
+	color:black;
+	border: none;
+	background: none;
+	text-transform: uppercase;
+	height: 100%;
+	font-weight: 700:
+	color: steelblue;
+	letter-spacing: 1px;
+	font-size: inherit;
+	transition: all 0.5s;
+}
+#tryitAgain{
+	text-align: center;
+
+	display: inline-block;
+	width: 20%;
+}
+footer{
+position: fixed;
+top: 94%;
+color:white;
+padding-top: 5px;
+font-size:100%;
+}
