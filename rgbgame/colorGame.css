@@ -13,7 +13,15 @@ body{
 
 
 }
+#heim{
+	text-decoration: none;
+	color: white;
+	padding-left: 10px;
+}
 
+#heim:hover{
+	text-shadow: 2px 2px 4px white
+}
 button:hover{
 	
 	background-color:  steelblue;
@@ -92,5 +100,9 @@ position: fixed;
 top: 94%;
 color:white;
 padding-top: 5px;
+padding-left: 10px;
 font-size:100%;
+}
+footer:hover{
+	text-shadow: 2px 2px 4px white
 }
