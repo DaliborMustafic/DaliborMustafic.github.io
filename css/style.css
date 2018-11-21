@@ -8,6 +8,7 @@ ul{
 	color:	white;
 	-webkit-text-stroke: 0.5px yellow;
 
+
 }
 .navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover{
 	color:white;
@@ -21,7 +22,12 @@ ul{
     padding: 16px;
     font-size: 1.25rem;
     border: none;
-    transition: 0.7s;
+   
+}
+.dropbtn:hover{
+	background-color: #f1f1f1;
+	color:black;
+	text-decoration: none;
 }
 
 .dropdown {
@@ -52,10 +58,13 @@ ul{
 
 .dropdown:hover .dropdown-content {
 	display: block;
+	
 	}
 
 .dropdown:hover .dropbtn {
 	text-shadow: 2px 2px 4px white;
+	background-color: #f1f1f1;
+	color: black
 	
 	
 
