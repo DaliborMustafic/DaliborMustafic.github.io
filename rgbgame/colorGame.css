@@ -17,6 +17,9 @@ body{
 	text-decoration: none;
 	color: white;
 	padding-left: 10px;
+	background-color: steelblue;
+	padding-right: 100%;
+	padding-top: 100%;
 }
 
 #heim:hover{

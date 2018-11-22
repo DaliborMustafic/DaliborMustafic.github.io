@@ -4,14 +4,25 @@ canvas{
 	height: 100%;
 	background: black;
 	background-size: cover;
+	margin: 0;
 }
 
 body,html{
 height: 100%;
 margin: 0;
+overflow: hidden;
+font-family: 'Shadows Into Light', cursive;
 }
 a {
 	text-decoration: none;
-	color: black;
+	color: white;
+
 	padding-left: 10px;
+	padding-right: 100%;
+	padding-top: 100%;
+	background-color: black
+}
+
+a:hover {
+	text-shadow: 2px 2px 4px white;
 }
