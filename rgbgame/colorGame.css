@@ -14,15 +14,21 @@ body{
 
 }
 #heim{
-	text-decoration: none;
-	color: white;
+	
+	
 	padding-left: 10px;
 	background-color: steelblue;
-	padding-right: 100%;
-	padding-top: 100%;
+
+
 }
 
-#heim:hover{
+
+
+#heim a{
+	color: white;
+	text-decoration: none;
+}
+#heim a:hover{
 	text-shadow: 2px 2px 4px white
 }
 button:hover{

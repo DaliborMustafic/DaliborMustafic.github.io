@@ -13,16 +13,15 @@ margin: 0;
 overflow: hidden;
 font-family: 'Shadows Into Light', cursive;
 }
-a {
-	text-decoration: none;
-	color: white;
-
-	padding-left: 10px;
-	padding-right: 100%;
-	padding-top: 100%;
+#wrap {
 	background-color: black
 }
 
-a:hover {
+#wrap a{
+	text-decoration: none;
+	color: white;
+}
+
+#wrap a:hover {
 	text-shadow: 2px 2px 4px white;
 }
