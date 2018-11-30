@@ -8,14 +8,15 @@ $(".coffe").ripples({
 
 $(window).on('resize', function(){
       var win = $(this);
-      if (win.width() < 514) { 
+      if (win.width() < 993) { 
 
-      $('coffeWhole').addClass('mobile');
+      $('#coffeWhole').addClass('mobile');
 
       }
     else
     {
-        $('coffeWhole').removeClass('mobile');
+        $('#coffeWhole').removeClass('mobile');
     }
 
 });
+
