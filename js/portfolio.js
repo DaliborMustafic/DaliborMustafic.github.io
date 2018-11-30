@@ -6,3 +6,16 @@ $(".coffe").ripples({
 
 });
 
+$(window).on('resize', function(){
+      var win = $(this);
+      if (win.width() < 514) { 
+
+      $('coffeWhole').addClass('mobile');
+
+      }
+    else
+    {
+        $('coffeWhole').removeClass('mobile');
+    }
+
+});
