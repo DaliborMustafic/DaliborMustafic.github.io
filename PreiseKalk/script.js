@@ -89,34 +89,36 @@
 			var tacka = listaCena[i].indexOf(".");
 			var drugiBrojPosleTacke =  listaCena[i].slice(tacka + 2 ,tacka + 3);
 
-			console.log((parseFloat(listaCena[i])) - Math.abs(parseFloat("0.0" + (drugiBrojPosleTacke)) + 0.01))
 			if ((drugiBrojPosleTacke) >= 5 &&  (drugiBrojPosleTacke) <= 9 )
 
 			{//ako je drugi broj posle tacke veci od 5 a manji od 9 onda
 				
 				
 				
-				listaCena[i] = (parseFloat(listaCena[i])) + Math.abs(parseFloat("0.0" + (drugiBrojPosleTacke)) - 0.09)
-
+				listaCena[i] = (parseFloat(listaCena[i])) + (Math.abs(parseFloat("0.0" + (drugiBrojPosleTacke)) - 0.09))
 
 
 			}else if ((drugiBrojPosleTacke) >= 0 &&  (drugiBrojPosleTacke) < 5 )
 
 			{
-				
+				console.log("ovo je rund cena manja od 5 pre " + listaCena[i] )
 
 				listaCena[i] = (parseFloat(listaCena[i])) - Math.abs(parseFloat("0.0" + (drugiBrojPosleTacke)) + 0.01)
+
+				console.log("ovo je rund cena manja od 5  posle" + listaCena[i] )
 				
 			}
 		 	
-			listaPolja[i].value = listaCena[i] 
+			listaPolja[i].value = listaCena[i].toFixed(2)
 		}
 
 
 		for (var i = 0 ; i < listaNeRundCena.length; i++){
+
 			
 
 			listaPoljaNeRund[i].value = listaNeRundCena[i]
+			console.log("ovo nije rund cena   " + listaNeRundCena[i] )
 		}
 
 
