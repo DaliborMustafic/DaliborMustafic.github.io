@@ -85,24 +85,27 @@
 
 		for(var i = 0 ; i< listaCena.length ; i++){
 			
-			var drugiBrojPosleTacke = listaCena[i].slice(3,4)
-			var odPrvogDoPrvogPosleNule = listaCena[i].slice(0,3)
-			var prviBrojPosleTacke = listaCena[i].slice(2,3)
-			var prviBrojSaTackom = listaCena[i].slice(0,2)
-			var prviBroj = listaCena[i].slice(0,1)
-			
-			if ((drugiBrojPosleTacke) >= 5 &&  (drugiBrojPosleTacke) < 9 )
+
+			var tacka = listaCena[i].indexOf(".");
+			var drugiBrojPosleTacke =  listaCena[i].slice(tacka + 2 ,tacka + 3);
+
+			console.log((parseFloat(listaCena[i])) - Math.abs(parseFloat("0.0" + (drugiBrojPosleTacke)) + 0.01))
+			if ((drugiBrojPosleTacke) >= 5 &&  (drugiBrojPosleTacke) <= 9 )
+
 			{//ako je drugi broj posle tacke veci od 5 a manji od 9 onda
-				console.log(drugiBrojPosleTacke)
-
-				listaCena[i] =  parseFloat("0.0" + toString(Math.abs((drugiBrojPosleTacke - 9)))) + parseFloat(listaCena[i]) 
-
 				
+				
+				
+				listaCena[i] = (parseFloat(listaCena[i])) + Math.abs(parseFloat("0.0" + (drugiBrojPosleTacke)) - 0.09)
+
+
+
 			}else if ((drugiBrojPosleTacke) >= 0 &&  (drugiBrojPosleTacke) < 5 )
 
 			{
+				
 
-				listaCena[i] = Math.abs(parseFloat("0.0" + toString(parseInt(drugiBrojPosleTacke) + 1)) - parseFloat(listaCena[i])).toFixed(2)
+				listaCena[i] = (parseFloat(listaCena[i])) - Math.abs(parseFloat("0.0" + (drugiBrojPosleTacke)) + 0.01)
 				
 			}
 		 	
