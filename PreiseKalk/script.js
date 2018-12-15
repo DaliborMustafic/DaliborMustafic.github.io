@@ -2,6 +2,8 @@
 
 
 	  	var ek 	= document.getElementById("mySelect");
+
+	 	
 	  	var nf 	= document.getElementById("nf")
 	  	var rip = document.getElementById("rip")
 	  	var ccpk1 = document.getElementById("ccpk1")
@@ -17,22 +19,22 @@
 	  	var intercenrvice = document.getElementById("31")
 	  	var imst = document.getElementById("65")
 	  	//calculation normal preis
-
-	  	var nfPreis = (ek.value * 1.30).toFixed(2);
-		var ripPreis = ((ek.value * 1.30)*1.45).toFixed(2);
-		var ccpk1Preis = (ek.value * 1.45).toFixed(2);
-		var ccpk2Preis = (ek.value * 1.42).toFixed(2);
-		var ispk1Preis = (ek.value * 1.55).toFixed(2);
-		var ispk2Preis = (ek.value * 1.52).toFixed(2);
+	  	ek = ek.value.replace(",",".")
+	  	var nfPreis = (ek * 1.30).toFixed(2);
+		var ripPreis = ((ek * 1.30)*1.45).toFixed(2);
+		var ccpk1Preis = (ek * 1.45).toFixed(2);
+		var ccpk2Preis = ((ek * 1.45)*0.97).toFixed(2);
+		var ispk1Preis = (ek * 1.55).toFixed(2);
+		var ispk2Preis = ((ek * 1.55)*0.97).toFixed(2);
 		//anbruch calculation
 
-	  	var ccpk1APreis = ((ek.value * 1.45)*1.10).toFixed(2) ;
-		var ccpk2APreis = (ek.value * 1.42).toFixed(2)
-		var ispk1APreis = ((ek.value * 1.55)*1.10).toFixed(2)
-		var ispk2APreis = (ek.value * 1.52).toFixed(2)
-		var ccSalfeldenPreis = (ek.value * 1.45).toFixed(2)
-		var intercenrvicePreis =(ek.value * 1.55).toFixed(2)
-		var imstPreis = (ek.value * 1.45).toFixed(2)
+	  	var ccpk1APreis = ((ek * 1.45)*1.10).toFixed(2) ;
+		var ccpk2APreis = ((ek * 1.45)*0.97).toFixed(2)
+		var ispk1APreis = ((ek * 1.55)*1.10).toFixed(2)
+		var ispk2APreis = ((ek * 1.55)*0.97).toFixed(2)
+		var ccSalfeldenPreis = (ek * 1.45).toFixed(2)
+		var intercenrvicePreis =(ek * 1.55).toFixed(2)
+		var imstPreis = (ek * 1.45).toFixed(2)
 
 
 		var listaNeRundCena= [
