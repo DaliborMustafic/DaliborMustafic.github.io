@@ -112,13 +112,14 @@ Element {
 
     	width: 100px;
     	height: 40px;
+
     }
     footer{
 
    	color: #f8f9fa;
     padding-top: 5px;
     text-align: center;
-    padding-bottom: 0px;
+    padding-bottom: 8px;
     position:fixed;
     bottom:0;
     width:100%;
@@ -127,3 +128,15 @@ Element {
 	-moz-box-shadow: inset 9px -15px 59px 3px rgba(0,0,0,0.69);
 	box-shadow: inset 9px -15px 59px 3px rgba(0,0,0,0.69);
     }
+    .footerDiv{
+
+    	font-size:13px;
+    	height: 30px;
+    	background: #606c88;  /* fallback for old browsers */
+		background: -webkit-linear-gradient(to right, #3f4c6b, #606c88);  /* Chrome 10-25, Safari 5.1-6 */
+		background: linear-gradient(to right, #3f4c6b, #606c88); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	
+
+
+    }
+
