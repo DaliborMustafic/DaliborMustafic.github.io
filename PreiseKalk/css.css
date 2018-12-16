@@ -20,19 +20,41 @@ body .naslov{
 	box-shadow: 8px 6px 18px -2px rgba(0,0,0,0.75);
 }
 
+Element {
+
+}
+.bg-light {
+
+    border-radius: 5px;
+    box-shadow: -webkit-box-shadow: 8px 6px 18px -17px rgba(0,0,0,0.75);
+    -moz-box-shadow: 8px 6px 18px -17px rgba(0,0,0,0.75);
+    box-shadow: 8px 6px 18px -2px rgba(0,0,0,0.75);
+
+}
+.bg-light {
+
+    background-color: #f8f9fa !important;
+
+}
+.navbar {
+
+    margin-top: 10px;
+    }
+
 #left{
 	
 	width: 220px;
 	text-align: left;
 
-
-	margin: 0 auto;
+	margin-left: auto;
+	margin-right: auto;
 }
 #right{
 
 	
 	width: 220px;
-	margin: 0 auto;
+	margin-left: auto;
+	margin-right: auto;
 	text-align: left;
 	 
 }
@@ -74,6 +96,7 @@ body .naslov{
     	 text-align: center;
     }
 
+
     .bg-light{
 
     	border-radius: 5px;
@@ -84,4 +107,23 @@ body .naslov{
     }
     #mySelect{
     	background-color: yellow
+    }
+    #wedl{
+
+    	width: 100px;
+    	height: 40px;
+    }
+    footer{
+
+   	color: #f8f9fa;
+    padding-top: 5px;
+    text-align: center;
+    padding-bottom: 0px;
+    position:fixed;
+    bottom:0;
+    width:100%;
+    z-index: -1;
+	-webkit-box-shadow: inset 9px -15px 59px 3px rgba(0,0,0,0.69);
+	-moz-box-shadow: inset 9px -15px 59px 3px rgba(0,0,0,0.69);
+	box-shadow: inset 9px -15px 59px 3px rgba(0,0,0,0.69);
     }
