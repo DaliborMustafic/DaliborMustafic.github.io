@@ -133,13 +133,18 @@ Element {
 	box-shadow: inset 9px -15px 59px 3px rgba(0,0,0,0.69);
     }
     .footerDiv{
+        color: gray  ;
+        font-family: 'Kaushan Script', cursive;
         padding-top: 5px;
         padding-left: 5px;
-    	font-size:13px;
+    	font-size:12px;
     	height: 30px;
     	background: #606c88;  /* fallback for old browsers */
 		background: -webkit-linear-gradient(to right, #3f4c6b, #606c88);  /* Chrome 10-25, Safari 5.1-6 */
 		background: linear-gradient(to right, #3f4c6b, #606c88); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            -webkit-box-shadow: inset 9px -15px 59px 3px rgba(0,0,0,0.69);
+        -moz-box-shadow: inset 9px -15px 59px 3px rgba(0,0,0,0.69);
+        box-shadow: inset 9px -15px 59px 3px rgba(0,0,0,0.69);
 	
 
 
