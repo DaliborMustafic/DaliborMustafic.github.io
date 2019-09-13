@@ -140,7 +140,7 @@ function showNewMovies(event){
                               <a id="${movie.id}" onclick="addToFavNewMovies(event)"style ="color:white;cursor: pointer;"><img style="width: 30px;height: 30px;"src="img/star.png">Add Movie to Watchlist</a>
                             </div> 
                             <div class="vid">
-                                ${clipID == "NoVid" ? `<h1> Kein Video verfügbar  </h1>` : `<iframe class="vidEbeded" src="http://www.youtube.com/embed/${clipID}"
+                                ${clipID == "NoVid" ? `<h1> Kein Video verfügbar  </h1>` : `<iframe class="vidEbeded" src="https://www.youtube.com/embed/${clipID}"
                                 frameborder="0" allowfullscreen></iframe>` }
                             </div>
                         </div>
