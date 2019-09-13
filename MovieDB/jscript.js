@@ -278,7 +278,7 @@ function getPlot(event){
             <p> Release Date : ${movie.release_date} </p>
             <p> Vote average : ${movie.vote_average} / 10 </p>
             <div class="vid">
-                <iframe class="vidEbeded" src="http://www.youtube.com/embed/${clipID}"
+                <iframe class="vidEbeded" src="https://www.youtube.com/embed/${clipID}"
                     frameborder="0" allowfullscreen></iframe>
             </div>`
 
