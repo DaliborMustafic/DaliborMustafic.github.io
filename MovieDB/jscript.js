@@ -147,8 +147,9 @@ function showNewMovies(event){
                     </div>
                 </div>`
         },1100)
+        window.history.pushState(null, null, `NewMovies?id=${movie.id}`);
     })
-
+    
 
 
 }
