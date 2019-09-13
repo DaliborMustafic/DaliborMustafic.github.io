@@ -1,0 +1,236 @@
+  * Apps <https://www.themoviedb.org/apps>
+  * Forums <https://www.themoviedb.org/discuss>
+  * Leaderboard <https://www.themoviedb.org/leaderboard>
+  * Contribute <https://www.themoviedb.org/contribute>
+  * API <https://www.themoviedb.org/documentation/api>
+  * Support <https://www.themoviedb.org/talk>
+
+  * The Movie Database (TMDb) <https://www.themoviedb.org/>
+  * Discover <https://www.themoviedb.org/discover>
+      o Movies <https://www.themoviedb.org/discover/movie>
+      o TV Shows <https://www.themoviedb.org/discover/tv>
+  * Movies <https://www.themoviedb.org/movie>
+      o Popular <https://www.themoviedb.org/movie>
+      o Top Rated <https://www.themoviedb.org/movie/top-rated>
+      o Upcoming <https://www.themoviedb.org/movie/upcoming>
+      o Now Playing <https://www.themoviedb.org/movie/now-playing>
+  * TV Shows <https://www.themoviedb.org/tv>
+      o Popular <https://www.themoviedb.org/tv>
+      o Top Rated <https://www.themoviedb.org/tv/top-rated>
+      o On TV <https://www.themoviedb.org/tv/on-the-air>
+      o Airing Today <https://www.themoviedb.org/tv/airing-today>
+  * People <https://www.themoviedb.org/person>
+      o Popular People <https://www.themoviedb.org/person>
+
+  *
+
+    Can't find a movie or TV show? Login to create it.
+    <#>
+  *
+    en
+  * Login <https://www.themoviedb.org/login>
+  * Sign Up <https://www.themoviedb.org/account/signup>
+
+  * About TMDb <https://www.themoviedb.org/about/our-history>
+      o Our History <https://www.themoviedb.org/about/our-history>
+      o Staying In Touch <https://www.themoviedb.org/about/staying-in-touch>
+      o Logos & Attribution
+        <https://www.themoviedb.org/about/logos-attribution>
+  * Apps <https://www.themoviedb.org/apps>
+  * API <https://www.themoviedb.org/documentation/api>
+      o Overview <https://www.themoviedb.org/documentation/api>
+      o Discover Examples
+        <https://www.themoviedb.org/documentation/api/discover>
+      o Sessions <https://www.themoviedb.org/documentation/api/sessions>
+      o Status Codes
+        <https://www.themoviedb.org/documentation/api/status-codes>
+      o Support
+        <https://www.themoviedb.org/talk/category/5047958519c29526b50017d6>
+      o Terms of Use
+        <https://www.themoviedb.org/documentation/api/terms-of-use>
+      o Wrappers & Libraries
+        <https://www.themoviedb.org/documentation/api/wrappers-libraries>
+  * Community Guidelines
+    <https://www.themoviedb.org/documentation/community/guidelines>
+  * FAQ <https://www.themoviedb.org/faq/general>
+      o General <https://www.themoviedb.org/faq/general>
+      o Account <https://www.themoviedb.org/faq/account>
+      o API <https://www.themoviedb.org/faq/api>
+      o Logos & Attribution
+        <https://www.themoviedb.org/about/logos-attribution>
+      o Website <https://www.themoviedb.org/faq/website>
+
+
+    Discover API Examples
+
+Our discover methods can be very powerful tools when you're looking for
+specific data. Below are some examples to showcase some of the powerful
+things you can do.
+
+
+      What movies are in theatres?
+
+*URL*:
+|/discover/movie?primary_release_date.gte=2014-09-15&primary_release_date.lte=2014-10-22|
+
+
+      What are the most popular movies?
+
+*URL*: |/discover/movie?sort_by=popularity.desc|
+
+
+      What are the highest rated movies rated R?
+
+*URL*:
+|/discover/movie/?certification_country=US&certification=R&sort_by=vote_average.desc|
+
+
+      What are the most popular kids movies?
+
+*URL*:
+|/discover/movie?certification_country=US&certification.lte=G&sort_by=popularity.desc|
+
+
+      What is are the best movies from 2010?
+
+*URL*: |/discover/movie?primary_release_year=2010&sort_by=vote_average.desc|
+
+
+      What are the best dramas that were released this year?
+
+*URL*: |/discover/movie?with_genres=18&primary_release_year=2014|
+
+
+      What are the highest rated science fiction movies that Tom Cruise
+      has been in?
+
+*URL*:
+|/discover/movie?with_genres=878&with_cast=500&sort_by=vote_average.desc|
+
+
+      What are the Will Ferrell's highest grossing comedies?
+
+*URL*: |/discover/movie?with_genres=35&with_cast=23659&sort_by=revenue.desc|
+
+
+      Have Brad Pitt and Edward Norton ever been in a movie together?
+
+*URL*: |/discover/movie?with_people=287,819&sort_by=vote_average.desc|
+
+
+      Has David Fincher ever worked with Rooney Mara?
+
+*URL*: |/discover/movie?with_people=108916,7467&sort_by=popularity.desc|
+
+
+      What are the best drama's?
+
+*URL*:
+|/discover/movie?with_genres=18&sort_by=vote_average.desc&vote_count.gte=10|
+
+
+      What are Liam Neeson's highest grossing rated 'R' movies?
+
+*URL*:
+|/discover/movie?certification_country=US&certification=R&sort_by=revenue.desc&with_cast=3896|
+
+The Movie Database (TMDb) Join the Community
+<https://www.themoviedb.org/account/signup>
+
+
+      The Basics
+
+  * About TMDb <https://www.themoviedb.org/about>
+  * Contact Us <https://www.themoviedb.org/about/staying-in-touch>
+  * Support Forums <https://www.themoviedb.org/talk>
+  * API <https://www.themoviedb.org/documentation/api>
+  * Blog <https://blog.themoviedb.org/>
+
+
+      Get Involved
+
+  * Contribution Bible <https://www.themoviedb.org/bible>
+  * 3rd Party Applications <https://www.themoviedb.org/apps>
+  * Add New Movie <https://www.themoviedb.org/movie/new>
+  * Add New TV Show <https://www.themoviedb.org/tv/new>
+
+
+      Community
+
+  * Guidelines
+    <https://www.themoviedb.org/documentation/community/guidelines>
+  * Leaderboard <https://www.themoviedb.org/leaderboard>
+  * Forums <https://www.themoviedb.org/discuss>
+  * Twitter <https://twitter.com/themoviedb>
+  * Facebook <https://www.facebook.com/themoviedb>
+
+
+      Legal
+
+  * Terms of Use
+    <https://www.themoviedb.org/documentation/website/terms-of-use>
+  * Privacy Policy <https://www.themoviedb.org/privacy-policy>
+
+We use cookies to help give you a better experience on TMDb. You can
+review our cookie policy <https://www.tivo.com/legal/cookies> to learn
+more. By continuing to use TMDb, you are agreeing to this policy.
+
+Ok <#>
+
+Login <https://www.themoviedb.org/login>
+
+Sign Up <https://www.themoviedb.org/account/signup>
+
+Keyboard Shortcuts
+<#>
+
+
+      Global
+
+s focus the search bar
+p open profile menu
+esc close an open window
+? open keyboard shortcut window
+
+
+      On media pages
+
+b go back (or to parent when applicable)
+e go to edit page
+
+
+      On TV season pages
+
+→ (right arrow) go to next season
+← (left arrow) go to previous season
+
+
+      On TV episode pages
+
+→ (right arrow) go to next episode
+← (left arrow) go to previous episode
+
+
+      On all image pages
+
+a open add image window
+
+
+      On all edit pages
+
+t open translation selector
+ctrl+ s submit form
+
+
+      On discussion pages
+
+n create new discussion
+w toggle watching status
+p toggle public/private
+c toggle close/open
+a open activity
+r reply to discussion
+l go to last reply
+ctrl+ enter submit your message
+→ (right arrow) next page
+← (left arrow) previous page

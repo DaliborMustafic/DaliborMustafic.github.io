@@ -1,0 +1,193 @@
+body { background: url("img/25473-spiral_galaxy-galaxy-universe-space-outer_space-4096x2160.jpg"); 
+		  /* Full height */
+		  height: 100%;
+
+
+		  /* Center and scale the image nicely */
+		
+		  background-repeat: no-repeat;
+		  background-size: cover;
+		 
+		  background-attachment: fixed;
+
+
+			}
+.container{
+
+
+	/* background:  rgba(220,160,140,0.2); */
+
+
+}
+#suche{
+
+	text-align: center;
+	background: rgb(200,238,174);
+	background: radial-gradient(circle, rgba(238,238,174,1) 0%, rgba(148,233,153,1) 100%); 
+}
+.arow:hover{
+
+	cursor: pointer;
+
+
+}
+.titel{
+
+	text-align:center;
+	font-family: 'Notable', sans-serif;
+	font-size: 25px;
+}
+.box{
+	/* border: 1px solid rgba(192,192,192,0.3); */
+	
+}
+
+.plot{
+	display: none;
+
+}
+.plotShow{
+	display: block;
+	
+	color: white;
+
+}
+
+.items{
+	display: flex;
+	
+	overflow-x: hidden;
+}
+.items .items{
+
+	overflow-x: hidden;
+	min-width: 200px;
+	margin: 10px;
+	cursor: pointer;
+	
+}
+
+.items .items img{
+	height: 100%; 
+	width: 100%;
+	object-fit: contain;
+}
+
+.img-thumbnail{
+
+	width: 300px;
+	height: 300px;
+}
+.cam{
+	width: 40px;
+	height: 40px;
+}
+.naslov{
+	font-family: 'Notable', sans-serif;
+
+	color: white;
+	text-align: center;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+}
+.newMovies{
+
+	color: white;
+}
+.vid{
+
+	position: relative; 
+  padding-bottom: 56.25%; /* ratio 16x9 */
+  height: 0; 
+  overflow: hidden; 
+  width: 100%;
+  height: auto;
+}
+
+
+.vid iframe {
+
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  width: 100%; 
+  height: 100%; 
+}
+
+.vidEbeded{
+
+	padding-bottom: 20px;
+}
+
+#movieTape{
+	
+	height: 100px;
+}
+.fa-film{
+	width: 20px;
+	height: 20px;
+}
+h2{
+	color: white;
+}
+
+#leftButton{
+	height: 50px;
+	width: 50px;
+	cursor: pointer;
+}
+#rightButton{
+	height: 50px;
+	width: 50px;
+	cursor: pointer;
+}
+.form-control { display: inline-block !important; }
+
+.favs{
+
+	position: fixed;
+	left : 0px;
+	top: 0px;
+	text-align: center;
+	z-index: 0;
+	width: 200px;
+
+
+	
+}
+.favs h6{
+	color: white;
+	cursor: pointer;
+}
+
+.liste{	
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.8s linear;
+
+}
+.listeShow{
+	visibility: visible;
+  	opacity: 1;
+	background: rgba(128, 128, 128,0.2);
+	overflow-y:auto; 
+	height:400px;
+
+
+
+
+}
+a:visited{
+	color:red;
+}
+.form-control.mr-sm-2.pull-right{
+	width: 200px;
+
+}
+#favs{
+	float: left;
+}
+
+
+
+
