@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>	Trading Checkbox </title>
+		
+		
+		
+	</head>
+	<style>
+		p,
+		label {
+    	font: 2vw 'Fira Sans', sans-serif;color: white;
+		}
+
+		input {
+    	margin: .4rem;
+		}
+ 	</style>
+ 	<script type="text/javascript">
+
+
+
+			 function reply_click(clicked_id){
+
+				var htmlElmt  = document.getElementById(clicked_id.id).nextElementSibling;
+
+				if(clicked_id.checked == true){
+					htmlElmt.style.textDecoration = "line-through"
+				}else{
+					htmlElmt.style.textDecoration = "none"
+				}
+
+			}
+
+	</script>
+
+
+
+	<body style="background: rgb(2,0,36);background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,107,121,1) 35%, rgba(0,212,255,1) 100%);">
+
+		<h1 style="color:white; text-align: center; text-decoration: underline;" >Strategy Checklist</h1>
+		<div style="text-align: center; margin-top: 20vh;">
+
+				
+
+			<div>
+			  <input type="checkbox" id="Divergence" onclick="reply_click(this)" name="Divergence"
+			         >
+			  <label for="Divergence">RSI Divergence 4H-3H Chart</label>
+			</div>
+
+			<div>
+			  <input type="checkbox" id="Trendline" onclick="reply_click(this)" name="Trendline" >
+			  <label for="Trendline">Trendline break (Trendline on Candle body) & Candle close under the Trendline (4H)</label>
+			</div>
+
+			<div>
+				<input type="checkbox"  id="Condition" onclick="reply_click(this)" name="Condition"
+			         >
+			    <label for="Condition">If Price is above 21 EMA then Long, if Under then Short (1H Timeframe)</label>
+			</div>
+			<div>
+				<input type="checkbox"  id="Entry" onclick="reply_click(this)" name="Entry"
+			         >
+			    <label for="Entry">Entry on 2nd Candle close on 1H Timeframe</label>
+			</div>
+
+			<div>
+				<input type="checkbox" id="R&R" onclick="reply_click(this)" name="R&R">
+				<label for="R&R">R&R 3:1 </label>
+			</div>
+		</div>	
+
+	</body>
+</html>
