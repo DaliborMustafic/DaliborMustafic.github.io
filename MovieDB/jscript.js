@@ -3,7 +3,7 @@
 window.onload  = function(){
     window.today = getDate(14);
     window.nowDate = getDate(0);
-    window.key= "cb5bdc9bad7c681f9ac1635d13afe249";
+    window.text= "cb5bdc9bad7c681f9ac1635d13afe249";
 
     
     getNewMovies(`https://api.themoviedb.org/3/discover/movie?api_key=cb5bdc9bad7c681f9ac1635d13afe249&primary_release_date.gte=${today}`,false);

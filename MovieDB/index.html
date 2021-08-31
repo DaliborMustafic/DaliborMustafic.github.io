@@ -38,19 +38,19 @@
                   <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ">
                       <li class="nav-item active">
-                        <a onclick="getNewMovies(`https://api.themoviedb.org/3/discover/movie?api_key=${key}&primary_release_date.gte=${today}`,true);" class="nav-link" href="#">In Theaters</a>
+                        <a onclick="getNewMovies(`https://api.themoviedb.org/3/discover/movie?api_key=${text}&primary_release_date.gte=${today}`,true);" class="nav-link" href="#">In Theaters</a>
                       </li>
 
                       <li class="nav-item">
-                        <a onclick=" getNewMovies(`https://api.themoviedb.org/3/discover/movie?api_key=${key}&primary_release_date.lte=${nowDate}`,true)" class="nav-link" href="#">Coming Soon</a>
+                        <a onclick=" getNewMovies(`https://api.themoviedb.org/3/discover/movie?api_key=${text}&primary_release_date.lte=${nowDate}`,true)" class="nav-link" href="#">Coming Soon</a>
                       </li>
                       <li class="nav-item">
-                        <a onclick="getNewMovies('https://api.themoviedb.org/3/discover/movie?api_key=${key}&certification_country=US&certification.lte=G&sort_by=popularity.desc' ,true);" class="nav-link" href="#">for Kids</a>
+                        <a onclick="getNewMovies('https://api.themoviedb.org/3/discover/movie?api_key=${text}&certification_country=US&certification.lte=G&sort_by=popularity.desc' ,true);" class="nav-link" href="#">for Kids</a>
 
                       </li>
 
                       <li class="nav-item">
-                        <a onclick="getNewMovies('https://api.themoviedb.org/3/discover/movie?api_key=${key}&sort_by=popularity.desc',true )" class="nav-link" href="#">Popular</a>
+                        <a onclick="getNewMovies('https://api.themoviedb.org/3/discover/movie?api_key=${text}&sort_by=popularity.desc',true )" class="nav-link" href="#">Popular</a>
                         
                       </li>
 
