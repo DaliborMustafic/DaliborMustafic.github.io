@@ -1,12 +1,15 @@
-﻿            
+﻿
+ 
 window.onload  = function(){
     window.today = getDate(14);
     window.nowDate = getDate(0);
+    window.key= "cb5bdc9bad7c681f9ac1635d13afe249";
+
     
     getNewMovies(`https://api.themoviedb.org/3/discover/movie?api_key=cb5bdc9bad7c681f9ac1635d13afe249&primary_release_date.gte=${today}`,false);
     showFavs(); 
 } ;
-//Wenn mann nach einen Film sucht in der search bar und enter drückt
+//Wenn mann nach einen Film sucht in der searchbar und enter drückt
 (function onEnterSearch(){
     let input = document.getElementById("woeid");
         input.addEventListener("keyup", function(event) {
