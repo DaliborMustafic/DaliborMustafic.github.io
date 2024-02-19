@@ -20,3 +20,8 @@ $(window).on('resize', function(){
 
 });
 
+const d = new Date();
+let cur_year = d.getFullYear();
+let birth_year = 1985
+let difference = cur_year - birth_year
+document.getElementById("myText").innerHTML = difference;
